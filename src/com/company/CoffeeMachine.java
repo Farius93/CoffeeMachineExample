@@ -16,6 +16,8 @@ public class CoffeeMachine implements Refillable {
 
     void makeCoffee(Storage storage) {
         storage.removeMilk(Recipes.MILK_FOR_COFFEE.getAmount());
-        System.out.printf("Zrobilem kawkw z %s, jednostka: %s", Recipes.MILK_FOR_COFFEE.getAmount(), Recipes.MILK_FOR_COFFEE.getJednostka());
+        System.out.printf("Zrobilem kawke z %s, jednostka: %s", Recipes.MILK_FOR_COFFEE.getAmount(), Recipes.MILK_FOR_COFFEE.getJednostka());
     }
+
+    //tutaj mamy jakas zmiane
 }
